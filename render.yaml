@@ -1,0 +1,23 @@
+databases:
+  - name: hkybfyqs
+    databaseName: hkybfyqs
+    user: hkybfyqs
+    plan: free
+
+services:
+  - type: web
+    name: article_searcher
+    runtime: ruby
+    plan: free
+    buildCommand: "./bin/render-build.sh"
+    # preDeployCommand: "./bin/rails db:migrate" # preDeployCommand only available on paid instance types
+    startCommand: "./bin/rails server"
+    envVars:
+      - key: postgres://hkybfyqs:koJz16BnApVKBtPMvy25V1f80vqPcV3_@babar.db.elephantsql.com/hkybfyqs
+        fromDatabase:
+          name: hkybfyqs
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
+      - key: WEB_CONCURRENCY
+        value: 2 # sensible default
