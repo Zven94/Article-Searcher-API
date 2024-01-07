@@ -13,6 +13,7 @@ test:
 
 production:
   <<: *default
+  database: article_searcher_production
   # database: storage/production.sqlite3
   # host: localhost
   url: <%= ENV['DATABASE_URL'] %>
