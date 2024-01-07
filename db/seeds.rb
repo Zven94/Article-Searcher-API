@@ -1,10 +1,20 @@
-# frozen_string_literal: true
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+SearchedTerm.create(term: 'ruby', searched_counter: 100)
+SearchedTerm.create(term: 'rails', searched_counter: 75)
+SearchedTerm.create(term: 'javascript', searched_counter: 60)
+SearchedTerm.create(term: 'react', searched_counter: 50)
+SearchedTerm.create(term: 'api', searched_counter: 40)
+SearchedTerm.create(term: 'database', searched_counter: 30)
+SearchedTerm.create(term: 'deployment', searched_counter: 25)
+SearchedTerm.create(term: 'css', searched_counter: 20)
+SearchedTerm.create(term: 'html', searched_counter: 15)
+SearchedTerm.create(term: 'git', searched_counter: 10)
+SearchedTerm.create(term: 'api', searched_counter: 80)
+SearchedTerm.create(term: 'ruby on rails', searched_counter: 70)
+SearchedTerm.create(term: 'web development', searched_counter: 60)
+SearchedTerm.create(term: 'backend', searched_counter: 50)
+SearchedTerm.create(term: 'frontend', searched_counter: 40)
+SearchedTerm.create(term: 'deployment', searched_counter: 35)
+SearchedTerm.create(term: 'heroku', searched_counter: 30)
+SearchedTerm.create(term: 'docker', searched_counter: 25)
+SearchedTerm.create(term: 'continuous integration', searched_counter: 20)
+SearchedTerm.create(term: 'RESTful API', searched_counter: 15)
