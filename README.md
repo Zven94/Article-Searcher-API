@@ -99,8 +99,6 @@ The project is built using the following technologies:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ---
-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -108,7 +106,7 @@ The project is built using the following technologies:
 - [Live Demo Link](https://article-searcher-g017.onrender.com/)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
