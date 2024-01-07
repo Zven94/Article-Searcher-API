@@ -12,6 +12,8 @@ class SearchController < ApplicationController
     # save articles in an object
     @articles = process_results(results)
 
+    update_searched_counter(query)
+
     # return retults as a json
 
     render json: @articles
@@ -40,5 +42,11 @@ class SearchController < ApplicationController
     items&.map do |item|
       { 'title' => item['title'], 'snippet' => item['snippet'], 'link' => item['link'] }
     end || []
+  end
+
+  # method to update the counter of the searched term
+  def update_searched_counter(term)
+    searched_term = SearchedTerm.find_or_initialize_by(term: term)
+    searched_term.increment_searched_counter
   end
 end
