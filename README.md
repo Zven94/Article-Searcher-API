@@ -53,7 +53,7 @@ Additionally, the API documentation is available [here](https://rent-for-a-day.o
 <br>
 <br>
 
-#![FireShot Capture 407 - View 1 · Rent For A Day - github com](https://github.com/Zven94/Article-Searcher/blob/development/searcher-engine-2.PNG)
+![FireShot Capture 407 - View 1 · Rent For A Day - github com](https://github.com/Zven94/Article-Searcher/blob/development/searcher-engine-2.PNG)
 
 <br>
 <br>
@@ -104,7 +104,7 @@ The project is built using the following technologies:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- 🎤 [Project presentation: video demo](https://www.loom.com/share/a57b45a0708545d9bac18071ead813e2?sid=bbd6e390-585b-487b-8157-76dc5cb071ee)
+- 🎤 [Project presentation: video demo](https://www.loom.com/share/dde6635af14a4d25a62d517863f3d928)
 - [Live Demo Link](https://article-searcher-g017.onrender.com/)
 
 
