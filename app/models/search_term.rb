@@ -1,4 +1,4 @@
-class SearchedTerm < ApplicationRecord
+class SearchTerm < ApplicationRecord
 
   #term must to be unique
   validates :term, presence: true, uniqueness: true
