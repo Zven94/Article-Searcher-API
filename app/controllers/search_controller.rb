@@ -46,7 +46,7 @@ class SearchController < ApplicationController
 
   # method to update the counter of the searched term
   def update_searched_counter(term)
-    searched_query = SearchedTerm.find_or_initialize_by(query:)
+    searched_query = QueryHistory.find_or_initialize_by(query:)
     searched_query.increment_count
   end
 end
