@@ -53,7 +53,7 @@ Additionally, the API documentation is available [here](https://rent-for-a-day.o
 <br>
 <br>
 
-#![FireShot Capture 407 - View 1 · Rent For A Day - github com](https://github.com/Zven94/rentforaday-front-end/assets/15095218/caa8c9ff-8c8e-406c-ba5f-e596fe1fa952)
+#![FireShot Capture 407 - View 1 · Rent For A Day - github com](https://github.com/Zven94/Article-Searcher/blob/development/searcher-engine-2.PNG)
 
 <br>
 <br>
