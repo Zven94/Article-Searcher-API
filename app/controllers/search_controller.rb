@@ -4,10 +4,10 @@ require 'net/http'
 class SearchController < ApplicationController
   def index
     query = params[:q]
-    #create index to show the results of all the pages
+    # create index to show the results of all the pages
     startIndex = params[:start_index].to_i || 1
 
-    results = fetch_data(query, startIndex )
+    results = fetch_data(query, startIndex)
 
     # save articles in an object
     @articles = process_results(results)
@@ -46,7 +46,7 @@ class SearchController < ApplicationController
 
   # method to update the counter of the searched term
   def update_searched_counter(term)
-    searched_term = SearchedTerm.find_or_initialize_by(term: term)
+    searched_term = SearchedTerm.find_or_initialize_by(term:)
     searched_term.increment_searched_counter
   end
 end
